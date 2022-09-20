@@ -1,0 +1,156 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix o: <http://omeka.org/s/vocabs/o#> .
+@prefix arcn: <https://github.com/crilcqArcanes/arcnvocab-datatypes/blob/main/edisem.ttl#> .
+@prefix ma: <http://www.w3.org/ns/ma-ont#>.
+
+<https://github.com/crilcqArcanes/arcnvocab-datatypes/blob/main/edisem.ttl#> a owl:Ontology ;
+    dcterms:title "Arcanes Vocabulaire" .
+
+arcn:CollectionArcanes a rdfs:Class ;
+    rdfs:label "CollectionArcanes" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+arcn:ContributeurArcanes a rdfs:Class ;
+    rdfs:label "ContributeurArcanes" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+arcn:EffetMediatique a rdfs:Class ;
+    rdfs:label "EffetMédiatique" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+arcn:TypeEffetMediatique a rdfs:Class ;
+    rdfs:label "TypeEffetMédiatique" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+arcn:StrategieTromperie a rdfs:Class ;
+    rdfs:label "StrategieTromperie" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+arcn:RecitPerception a rdfs:Class ;
+    rdfs:label "RecitPerception" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+arcn:Documentaire a rdfs:Class ;
+    rdfs:label "Documentaire" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+arcn:ArtVivant a rdfs:Class ;
+    rdfs:label "Art Vivant" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+arcn:Contributeur a rdfs:Class ;
+    rdfs:label "Contributeur" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+arcn:Tag a rdfs:Class ;
+    rdfs:label "Tag" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+arcn:RapportAuReel a rdfs:Class ;
+    rdfs:label "Rapport au Réel" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+arcn:CarnetEtude a rdfs:Class ;
+    rdfs:label "Carnet d'étude" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+arcn:hasCollectionArcanes a rdf:Property ;
+    rdfs:label "a comme collection arcanes" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+arcn:hasContributeurArcanes a rdf:Property ;
+    rdfs:label "a comme contributeur arcanes" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+arcn:hasStrategieTromperie a rdf:Property ;
+    rdfs:label "a comme strategie de tromperie" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+arcn:hasPerception a rdf:Property ;
+    rdfs:label "est perçu comme" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+arcn:hasEffetMediatique a rdf:Property ;
+    rdfs:label "a comme effet médiatique" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+arcn:hasTypeEffetMediatique a rdf:Property ;
+    rdfs:label "a comme type d'effet médiatique" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+arcn:EffetsTechniques a rdfs:Class ;
+    rdfs:label "EffetsTechniques" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+arcn:EffetsRhétorique a rdfs:Class ;
+    rdfs:label "EffetsRhétorique" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+arcn:EffetsSurLeSpectateur a rdfs:Class ;
+    rdfs:label "EffetsSurLeSpectateur" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+arcn:EffetsDesMédiasSociaux a rdfs:Class ;
+    rdfs:label "EffetsDesMédiasSociaux" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+arcn:EffetsDePrésenceEmbrayeurs a rdfs:Class ;
+    rdfs:label "EffetsDePrésenceEmbrayeurs" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+arcn:hasDocumentary a rdf:Property ;
+    rdfs:label "a comme documentaire associé" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+arcn:hasContributeur a rdf:Property ;
+    rdfs:label "a comme contributeur" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+arcn:hasTagAssocié a rdf:Property ;
+    rdfs:label "a comme tag associé" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+arcn:hasRapportAuRéel a rdf:Property ;
+    rdfs:label "a comme rapport au réel" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+arcn:hasElement a rdf:Property ;
+    rdfs:label "a comme élément associé" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+arcn:hasImage a rdf:Property ;
+    rdfs:label "a comme image associée" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
