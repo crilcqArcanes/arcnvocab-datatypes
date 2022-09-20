@@ -91,12 +91,12 @@ arcn:hasPerception a rdf:Property ;
     vs:term_status "experimental" .
 
 arcn:hasEffetMediatique a rdf:Property ;
-    rdfs:label "a comme effet médiatique" ;
+    rdfs:label "a comme granularité d'effet médiatique" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
 arcn:hasTypeEffetMediatique a rdf:Property ;
-    rdfs:label "a comme type d'effet médiatique" ;
+    rdfs:label "a comme catégorie d'effet médiatique" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
