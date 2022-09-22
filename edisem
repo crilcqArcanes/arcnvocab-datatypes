@@ -4,7 +4,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
 @prefix o: <http://omeka.org/s/vocabs/o#> .
-@prefix arcn: <https://github.com/crilcqArcanes/arcnvocab-datatypes/blob/main/edisem.ttl#> .
+@prefix arcn: <@prefix arcn: <https://github.com/crilcqArcanes/arcnvocab-datatypes/blob/main/edisem.ttl#> .
 @prefix ma: <http://www.w3.org/ns/ma-ont#>.
 
 <https://github.com/crilcqArcanes/arcnvocab-datatypes/blob/main/edisem.ttl#> a owl:Ontology ;
@@ -91,37 +91,12 @@ arcn:hasPerception a rdf:Property ;
     vs:term_status "experimental" .
 
 arcn:hasEffetMediatique a rdf:Property ;
-    rdfs:label "a comme granularité d'effet médiatique" ;
+    rdfs:label "a comme effet médiatique" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
 arcn:hasTypeEffetMediatique a rdf:Property ;
-    rdfs:label "a comme catégorie d'effet médiatique" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-arcn:EffetsTechniques a rdfs:Class ;
-    rdfs:label "EffetsTechniques" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-arcn:EffetsRhétorique a rdfs:Class ;
-    rdfs:label "EffetsRhétorique" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-arcn:EffetsSurLeSpectateur a rdfs:Class ;
-    rdfs:label "EffetsSurLeSpectateur" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-arcn:EffetsDesMédiasSociaux a rdfs:Class ;
-    rdfs:label "EffetsDesMédiasSociaux" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-arcn:EffetsDePrésenceEmbrayeurs a rdfs:Class ;
-    rdfs:label "EffetsDePrésenceEmbrayeurs" ;
+    rdfs:label "a comme type d'effet médiatique" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
